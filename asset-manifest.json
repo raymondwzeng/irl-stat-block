@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/irl-stat-block/static/css/main.da08fd83.css",
+    "main.js": "/irl-stat-block/static/js/main.a48d2da6.js",
+    "index.html": "/irl-stat-block/index.html",
+    "main.da08fd83.css.map": "/irl-stat-block/static/css/main.da08fd83.css.map",
+    "main.a48d2da6.js.map": "/irl-stat-block/static/js/main.a48d2da6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da08fd83.css",
+    "static/js/main.a48d2da6.js"
+  ]
+}
