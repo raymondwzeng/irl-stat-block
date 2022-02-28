@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+hr {
+  border: 1px solid black;
+  width: 50%;
+}
+
+#root, .App, .Main, body, html {
+  height: 100%;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.nomargin {
+  margin: 0
+}
+
+.flex {
+  display: flex;
+}
+
+.flexHorizontal {
+  flex-direction: row;
+}
+
+.centerFlex {
+  align-items: center;
+  justify-content: center;
+}
+
+.centerVertSpaceBetween {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Slider {
+  padding: 0 0.1em 0 0.1em;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.scaleWidth {
+  width: 15%;
+}
+
+.numberInput {
+  size: 3;
+  width: 20%;
+}
+
+.flexVertical {
+  flex-direction: column;
+}
+
+.smallHorzMargin {
+  margin: 0 0.5rem;
+}
+
+.smallVertMargin {
+  margin: 0.5rem 0;
+}
+
+.flexShrink2 {
+  flex-shrink: 2;
+}
+
+.customButton {
+  /* margin: 0 2%; */
+  border-radius: 25px;
+  padding: 3px 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  transition-duration: 0.2s;
+  text-decoration: none;
+  color: black;
+}
+
+.customButton:hover {
+  background-color: #ccc;
+  transition-duration: 0.2s;
+}
+
+#githubLink {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#FAQ {
+  width: 70%;
+  margin: auto;
+}
+
+#motherComponent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#titleCard {
+  text-align: center;
+}
+
+
+
